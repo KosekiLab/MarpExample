@@ -1,0 +1,184 @@
+/* @theme slide */
+
+@import 'default';
+
+img[alt~="c"] {
+    display: block;
+    margin: 0 auto;
+}
+
+img[alt~="l"] {
+    float: left;
+    margin: 0pt 16pt 16pt 0pt;
+}
+
+img[alt~="cl"] {
+    float: left;
+    padding-top: 64pt;
+    padding-bottom: 64pt;
+}
+
+img+em {
+    font-style: normal;
+    font-size: 80%;
+    font-weight: normal;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+code {
+    font-style: normal;
+    font-weight: normal;
+    background-color: unset;
+    display: block;
+    text-align: center;
+}
+
+em {
+    text-decoration: underline;
+    font-style: normal;
+    color: #000000;
+}
+
+em strong {
+    text-decoration: underline #0B8BEE;
+    color: #0B8BEE;
+}
+
+section.title {
+    --title-height: 160pt;
+    --subtitle-height: 40pt;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr var(--title-height) var(--subtitle-height) 1fr;
+    grid-template-areas: "." "title" "subtitle" ".";
+}
+
+section.title h1,
+section.title h2 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    height: var(--area-height);
+    line-height: var(--area-height);
+    font-size: calc(var(--area-height) * 0.6);
+    grid-area: subtitle;
+    --area-height: var(--subtitle-height);
+}
+
+section.title h1 {
+    grid-area: title;
+    --area-height: calc(var(--area-height) * 0.6);
+    font-size: calc(var(--title-height) * 0.3);
+}
+
+section.content h2 {
+    margin: 0pt;
+    padding: 16pt;
+}
+
+section {
+    justify-content: start;
+    padding-top: 32pt;
+    cursor: url("css/cursor.svg") 20 10, auto;
+}
+
+h1 {
+    color: #0B8BEE;
+  }
+
+section::after {
+    position: absolute;
+    text-align: right;
+    line-height: 880pt;
+    padding: 32pt;
+    font-weight: 24pt;
+    color: #000000;
+    content: attr(data-marpit-pagination) ' / ' attr(data-marpit-pagination-total);
+}
+
+header {
+    top: 0pt;
+    left: 0pt;
+}
+
+table {
+    display: block;
+    margin: auto;
+}
+
+table tr {
+    border: none;
+}
+
+table img {
+    display: block;
+    margin: 0 auto;
+    border: none;
+}
+
+table td {
+    border: none;
+    text-align: left;
+}
+
+table th {
+    background-color: var(--background-theme);
+    border: none;
+    vertical-align: top;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+}
+
+ul {
+    padding: 0.5em;
+    list-style-type: none;
+}
+
+ul li {
+    position: relative;
+    padding: 0em 0.3em 0.3em 1.3em;
+}
+
+ul li:before {
+    position: absolute;
+    content: '';
+    top: 1.2ex;
+    left: 0.2ex;
+    height: 0.4ex;
+    width: 0.4ex;
+    border-style: solid;
+    border-width: 0.2ex 0.2ex;
+    border-color: #0B8BEE #0B8BEE transparent transparent;
+    transform: rotate(45deg);
+}
+
+blockquote {
+    font-size: 60%;
+    position: absolute;
+    bottom: 32pt;
+    border-top: none;
+    border-left: none;
+    color: #000000;
+}
+
+div.twocols {
+	margin-top: 35px;
+	column-count: 2;
+}
+div.twocols p:first-child,
+div.twocols h1:first-child,
+div.twocols h2:first-child,
+div.twocols ul:first-child,
+div.twocols ul li:first-child,
+div.twocols ul li p:first-child {
+margin-top: 0 !important;
+}
+div.twocols p.break {
+break-before: column;
+margin-top: 0;
+}
