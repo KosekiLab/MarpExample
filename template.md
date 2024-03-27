@@ -25,7 +25,7 @@ ___
 # 目次
 
 ## 1. Basic slide example
-## 2. Two column slide
+## 2. Multicolumn slide
 ## 3. Slide animation
 ## 4. Others (Figures, Tables, References)
 
@@ -43,7 +43,8 @@ $$a + b = c$$
 ___
 # 2. Two column slide
 <!-- htmlコマンドを用いるにはsettings.jsonに"markdown.marp.enableHtml": trueを加える必要あり -->
-<div class="twocols">
+<div class="columns">
+<div>
 
 ## 1カラム目の内容
 1. 内容1
@@ -51,7 +52,8 @@ ___
 2. 内容2
 	- 内容2.1
 
-<p class="break"></p>
+</div>
+<div>
 
 ## 2カラム目の内容
 3. 内容3
@@ -59,6 +61,40 @@ ___
 4. 内容4
 	- 内容4.1
 
+</div>
+</div>
+
+___
+# 2. Multicolumn (> 2) slide
+<!-- htmlコマンドを用いるにはsettings.jsonに"markdown.marp.enableHtml": trueを加える必要あり -->
+<div class="columns" style="--col_number: 3;">
+<div>
+
+## 1カラム目の内容
+1. 内容1
+	- 内容1.1
+2. 内容2
+	- 内容2.1
+
+</div>
+<div>
+
+## 2カラム目の内容
+3. 内容3
+	- 内容3.1
+4. 内容4
+	- 内容4.1
+
+</div>
+<div>
+
+## 3カラム目の内容
+5. 内容5
+	- 内容5.1
+6. 内容6
+	- 内容6.1
+
+</div>
 </div>
 
 ___
