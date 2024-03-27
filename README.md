@@ -5,11 +5,11 @@
 1. Visual Studio Codeのダウンロード（以降VSCodeでの環境構築を前提に話を進めます）
 2. VS Codeを開き，拡張機能からMarp for VS Codeをインストール
 3. VS Codeの`settings.json`を開き以下を追加
-	- なお，`settings.json`はショートカットキー`Ctrl + Shift + P` (Macなら`Cmd + Shift + P`)でコマンドパレットを表示してから`settings`と入力することで選択できる。
 ```
 "markdown.marp.themes": ["./css/slide.css"],
 "markdown.marp.enableHtml": true
 ```
+（`settings.json`はショートカットキー`Ctrl + Shift + P` (Macなら`Cmd + Shift + P`)でコマンドパレットを表示してから`settings`と入力することで選択できる。）
 
 ## スライドを作り始める
 1. `template.md`と`css`フォルダをコピーして任意のWorkingディレクトリに置く
