@@ -19,7 +19,7 @@ _class: title
 -->
 
 # Marp Template File: <br> Introduction to Marp presentation
-## 2024年04月01日<br>古関・大西研究室　弦本 健太郎
+## 2024年04月01日<br>東京大学　東大 太郎
 
 ___
 # 目次
