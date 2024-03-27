@@ -22,7 +22,9 @@
 ## スライドのExport方法
 1. テキストウィンドウ右上のMarpボタンをクリック
 <img src="exp_instr1.png" width="500">
+
 2. `Export Slide Deck...`を選択
 <img src="exp_instr2.png" width="500">
+
 3. 保存形式から任意のもの（.pdf, .html, .pptx）を選択
 <img src="exp_instr3.png" width="500">
