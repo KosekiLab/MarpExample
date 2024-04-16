@@ -3,6 +3,7 @@ marp: true
 theme: slide
 paginate: true
 math: latex
+footer: <span style="margin-left:12pt">Taro Todai
 ---
 <!-- <style>section{font-family:'Noto Sans CJK JP'}</style> -->
 <!-- 東大公式推奨のフォント

@@ -105,6 +105,16 @@ header {
     left: 0pt;
 }
 
+footer {
+    box-sizing:border-box;
+    border:2pt solid #FFCD00;
+    background-color:#FFCD00;
+    width:100%; 
+    left: 0pt;
+    bottom: 0pt; 
+    color : black;
+}
+
 table {
     display: block;
     margin: auto;
