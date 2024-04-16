@@ -167,10 +167,11 @@ ul li:before {
     transform: rotate(45deg);
 }
 
-blockquote {
+blockquote > blockquote > blockquote  {
     font-size: 60%;
     position: absolute;
     bottom: 32pt;
+	left: 46pt;
     border-top: none;
     border-left: none;
     color: #000000;
