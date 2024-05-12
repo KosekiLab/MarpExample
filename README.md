@@ -1,3 +1,7 @@
+---
+marp: true
+---
+
 # Marp Example Files for intuitive slide making
 このレポジトリには，[Marp](https://marp.app/) (Markdown Presentation Ecosystem)を用いた直感的で美しいスライド作りをするためのテンプレを置いてあります。
 
